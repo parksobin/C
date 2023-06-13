@@ -163,6 +163,7 @@ void attack3()
 void fight_num_basic()
 {
     system("cls");
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
     border_line();
     monster_gauge();
     heart_gauge();
@@ -187,8 +188,8 @@ void all_zero()
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
     banana_cat();
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-    SetCurrentCursorPos(1, 17);
-    printf("힘겨운 싸움 끝에는 몬스터와 해피캣이 죽고 바나나캣만 살았습니다..");
+    SetCurrentCursorPos(2, 17);
+    printf("힘겨운 싸움 끝에는 몬스터와 해피캣이 죽고 바나나캣만 살았습니다");
 }
 
 void heart_zero()
@@ -196,7 +197,7 @@ void heart_zero()
     system("cls");
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
     fight_num_basic();
-    SetCurrentCursorPos(13, 17);
+    SetCurrentCursorPos(11, 17);
     printf("몬스터에게 당해 바나나캣과 해피캣은 죽었습니다..");
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 }
