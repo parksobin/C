@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "oshinoko.h": "c",
+        "stdio.h": "c",
+        "mmsystem.h": "c"
+    }
+}

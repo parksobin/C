@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "oshinoko.h": "c",
+        "stdio.h": "c",
+        "mmsystem.h": "c",
+        "herocat.h": "c",
+        "sound.h": "c",
+        "gamemenu.h": "c",
+        "gamecode.h": "c",
+        "cursor.h": "c"
+    }
+}
