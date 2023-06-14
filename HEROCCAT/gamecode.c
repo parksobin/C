@@ -520,20 +520,20 @@ void chapter1_fight()
             else if (fight_num ==2)
             {
                 fight_num_basic();
-                monster2();
+                monster3();
                 SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
                 attack_char2();
                 attack_text();
                 Sleep(1000);
                 attack2();
                 SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
-                monster2();
+                monster3();
                 SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
                 monster_gauge();
                 Sleep(1000);
                 fight_num_basic2();
                 Sleep(10);
-                monster2();  
+                monster3();  
                 heart_gauge();
                 Sleep(2000);          
                 continue;
