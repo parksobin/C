@@ -18,7 +18,7 @@ void howplay();
 void gameexit();
 
 //    start.c
-void realstart();
+void start();
 
 // char.c
 void weapon();

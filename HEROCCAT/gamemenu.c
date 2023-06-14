@@ -6,7 +6,7 @@ void clearBuffer(char* screenBuf, int width, int height)
     int j = 0;     /* 세로 index */
     while (j < height)
     {
-        while (i < width + 1) /* 개행 문자 때문에 + 1*/
+        while (i < width + 1) 
         {
             if (i == width)
                 screenBuf[i + (j * (width + 1))] = '\n';

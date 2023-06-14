@@ -11,19 +11,19 @@ int isGamePlaying = 1;
 extern int gamestarte ;
 extern int level ;
 
-void realstart()
+void start()
 { 
     int input;
     int input2;
     int input3;
     while (isGamePlaying)
     { 
-    RemoveCursor();
-    system("cls");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-    border_line();
-    titledraw();
-    scanf("%d", &input);
+        system("cls");
+        RemoveCursor();
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+        border_line();
+        titledraw();
+        scanf("%d", &input);
 
         if (input == 1)
         {
