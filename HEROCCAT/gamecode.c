@@ -288,7 +288,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else if (fight_num ==2)
@@ -309,7 +309,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else if (fight_num ==3)
@@ -330,7 +330,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else continue;
@@ -398,7 +398,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster2();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else if (fight_num ==2)
@@ -419,7 +419,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster2();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else if (fight_num ==3)
@@ -440,7 +440,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster2();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
         else continue;
@@ -514,7 +514,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster3();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
             else if (fight_num ==2)
@@ -535,7 +535,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster3();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
             else if (fight_num ==3)
@@ -556,7 +556,7 @@ void chapter1_fight()
                 Sleep(10);
                 monster3();  
                 heart_gauge();
-                Sleep(2000);          
+                Sleep(1000);          
                 continue;
             }
             else continue;

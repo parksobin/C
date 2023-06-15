@@ -169,11 +169,11 @@ void attack_char1()
 void attack_text()
 {   
     Sleep(500);
-    SetCurrentCursorPos(19, 5);
+    SetCurrentCursorPos(19, 4);
     printf("＿人人人人人人＿");
-    SetCurrentCursorPos(19, 6);
+    SetCurrentCursorPos(19, 5);
     printf("＞ 받아랏 - !＜");
-    SetCurrentCursorPos(19, 7);
+    SetCurrentCursorPos(19, 6);
     printf("￣Y^Y^Y^Y^Y^Y￣");
 }
 
