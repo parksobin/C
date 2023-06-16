@@ -114,7 +114,7 @@ void howplay()
     printf("- 3라운드로 이루어진 몬스터를 전부 물리쳤을 때");
     Sleep(500);
     SetCurrentCursorPos(25, 16);
-    printf("[ 배드엔딩 조건 ]");
+    printf("[ 새드엔딩 조건 ]");
     SetCurrentCursorPos(3, 17);
     printf("- 해피캣의 생명력이 0이 되고 몬스터의 생명력도 0이 되었을 때");
     SetCurrentCursorPos(4, 18);

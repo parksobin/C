@@ -127,7 +127,6 @@ void attack1()
 {   
     int randomNumber[20];
     int i;
-    // srand((unsigned int)time(NULL));
     for (i = 1; i < 5; i++) {
         randomNumber[i] = rand() % 20 + 20; // 난수값의 범위를 20~ 39으로 설정
     }
